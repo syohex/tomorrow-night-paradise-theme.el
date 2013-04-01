@@ -22,7 +22,7 @@
 (let ((background "#000000")
       (selection "#3a3a3a")
       (foreground "#dadada")
-      (comment "chocolate1")
+      (comment "#dd6600")
       (cursor "#949494")
       (gray "#303030") (gray-2 "#1c1c1c") (gray-3 "#121212")
                        (gray-4 "#080808")
@@ -31,8 +31,8 @@
       (orange "#e78700")
       (green "#afd75f")
       (aqua "#00cdcd")
-      (blue "#5f87d7")
-      (purple "#af87d7"))
+      (blue "#33ccff")
+      (purple "#af87ff"))
 
   (custom-theme-set-faces
    'tomorrow-night-paradise
