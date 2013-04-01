@@ -22,7 +22,7 @@
 (let ((background "#000000")
       (selection "#3a3a3a")
       (foreground "#dadada")
-      (comment "#585858")
+      (comment "chocolate1")
       (cursor "#949494")
       (gray "#303030") (gray-2 "#1c1c1c") (gray-3 "#121212")
                        (gray-4 "#080808")
@@ -60,8 +60,8 @@
    `(font-lock-warning-face ((t (:foreground ,red))))
 
    ;; UI related
-   `(mode-line ((t (:background ,selection :foreground ,foreground))))
-   `(mode-line-inactive ((t (:background ,gray-3))))
+   `(mode-line ((t (:background "#222222" :foreground "#bbbbbc"))))
+   `(mode-line-buffer-id ((t (:weight bold :foreground "orange"))))
    `(vertical-border ((t (:background ,background :foreground ,selection))))
 
    ;; Linum
